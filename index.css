@@ -1,0 +1,60 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+nav {
+	background-color: rgb(99, 69, 138);
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar-nav .nav-link.active {
+	color: white;
+	font-weight: bold;
+}
+
+#landing {
+	background-color: rgb(178, 136, 192);
+}
+
+#landing h1 {
+	color: rgb(99, 69, 138);
+}
+
+#landing h2 {
+	color: rgb(126, 90, 155);;
+}
+
+#projects {
+	background-color: rgb(126, 90, 155);
+}
+
+#projects h2 {
+	color: white;
+}
+
+#contact {
+	background-color: rgb(228, 183, 229);
+}
+
+#contact a {
+	text-decoration: none;
+	color: rgb(126, 90, 155);;
+}
+
+#contact .btn {
+	background-image: linear-gradient(to right, pink, purple);
+}
+
+#footer {
+	background-color: rgb(99, 69, 138);
+}

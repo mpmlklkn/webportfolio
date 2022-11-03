@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Questrial', sans-serif;
 }
 
 nav {
@@ -15,6 +15,10 @@ nav {
 
 .nav-link {
 	color: white;
+}
+
+.nav-link:hover {
+	color: rgb(178, 136, 192);
 }
 
 .navbar-nav .nav-link.active {
@@ -58,3 +62,4 @@ nav {
 #footer {
 	background-color: rgb(99, 69, 138);
 }
+

@@ -26,16 +26,16 @@ nav {
 	font-weight: bold;
 }
 
-#landing {
-	background-color: rgb(178, 136, 192);
-}
-
 #landing h1 {
 	color: rgb(99, 69, 138);
 }
 
 #landing h2 {
 	color: rgb(126, 90, 155);;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: rgb(178, 136, 192);
 }
 
 #projects {

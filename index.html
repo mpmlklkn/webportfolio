@@ -55,15 +55,40 @@
 	<!-- Main Content Start -->
 	<div class="container-fluid p-0 text-center">
 		<!-- Landing Start -->
-		<div id="landing" class="flex-column mx-auto p-5">
-			<div data-aos="zoom-in">
-				<img src="./images/self.png" class="img-fluid rounded-circle">
+		<div id="landing" class="mx-auto p-5">
+			<div id="carouselLanding" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active vh-100">
+						<div data-aos="zoom-in">
+							<img src="./images/self.png" class="img-fluid rounded-circle">
+						</div>
+						<h1 class="my-3">Mariel Pamulaklakin</h1>
+						<h2>Full Stack Web Developer</h2>
+						<div class="text-justify-center col-sm-6 mx-auto">
+							Mariel graduated from the University of the Philippines – Los Baños with a Bachelor’s degree in Computer Science. She has worked as a web developer for over 3 years, and a Software Engineer for 4 years, before going back to web development. She is continuously honing her skills in web and software development. Outside of work, Mariel is a church choir member, a dog-lover, and a self-confessed nerd who dreams of traveling the world in the near future.
+						</div>
+					</div>
+					<div class="carousel-item vh-100">
+						<div class="d-inline d-sm-flex align-items-center">
+							<div data-aos="zoom-in" class="d-inline-flex pt-5">
+								<img src="./images/medal.png" class="img-fluid">
+							</div>
+							<div class="d-inline-flex text-justify-center pt-5">
+								<h4>Mariel is a Microsoft Certified Professional and a Specialist in Programming in HTML5 and CSS3. This certification was issued in May 2014.</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselLanding" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselLanding" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 			</div>
-			<h1 class="my-3">Mariel Pamulaklakin</h1>
-			<h2>Full Stack Web Developer</h2>
-			<div class="text-justify-center col-sm-6 mx-auto">
-				Mariel graduated from the University of the Philippines – Los Baños with a Bachelor’s degree in Computer Science. She has worked as a web developer for over 3 years, and a Software Engineer for 4 years, before going back to web development. She is continuously honing her skills in web and software development. She is also a Microsoft Certified Professional and a Specialist in Programming in HTML5 with JavaScript and CSS3. Outside of work, Mariel is a church choir member, a dog-lover, and a self-confessed nerd who dreams of traveling the world in the near future.
-			</div>
+			
 		</div>
 		<!-- Landing End -->
 
@@ -166,11 +191,11 @@
 					<h3 class="py-3">Links</h3>
 					<div class="row my-4" data-aos="fade-up-right">
 						<a href="https://www.linkedin.com/in/marielpamulaklakin/"><h4><i class="bi bi-linkedin"></i>
-					LinkedIn Profile</h4></a>
+						LinkedIn Profile</h4></a>
 					</div>
 					<div class="row my-4" data-aos="fade-up-right">
 						<a href="https://gitlab.com/zuitt-coding-bootcamp-corporate-trainees/vertere-c-net-mid-level-developer-training-batch-1/pamulaklakin-mariel"><h4><i class="bi bi-git"></i> 
-					Git</h4></a>
+						Git</h4></a>
 					</div>
 				</div>
 				<!-- Links End -->
@@ -178,20 +203,20 @@
 				<div class="col-sm-4 col-12 mx-auto text-start">
 					<form>
 						<div class="form-group my-3">
-                            <label>Full Name</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group my-3">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control">
-                        </div>
-                        <div class="form-group my-3">
-                            <label>Message</label>
-                            <textarea class="form-control"></textarea>
-                        </div>
-                        <div class="d-grid">
-                        	<button type="submit" class="btn btn-outline-light my-2">Send message</button>
-                        </div>
+							<label>Full Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group my-3">
+							<label>Email Address</label>
+							<input type="email" class="form-control">
+						</div>
+						<div class="form-group my-3">
+							<label>Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+						<div class="d-grid">
+							<button type="submit" class="btn btn-outline-light my-2">Send message</button>
+						</div>
 					</form>
 				</div>
 				<!-- Contact Form End -->
@@ -203,15 +228,15 @@
 
 	<!-- Footer Start -->
 	<div id="footer" class="row sticky-bottom text-light m-0">
-	  <footer>
-	    <ul class="nav justify-content-center border-bottom d-none d-sm-inline-flex text-center mx-sm-auto col-sm-12">
-	      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-	      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-	      <li class="nav-item"><a href="#tools" class="nav-link">Tools</a></li>
-	      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-	    </ul>
-	    <p class="text-center">&copy; 2022 Mariel Pamulaklakin</p>
-	  </footer>
+		<footer>
+			<ul class="nav justify-content-center border-bottom d-none d-sm-inline-flex text-center mx-sm-auto col-sm-12">
+				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+				<li class="nav-item"><a href="#tools" class="nav-link">Tools</a></li>
+				<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+			</ul>
+			<p class="text-center">&copy; 2022 Mariel Pamulaklakin</p>
+		</footer>
 	</div>
 	<!-- Footer End -->
 
